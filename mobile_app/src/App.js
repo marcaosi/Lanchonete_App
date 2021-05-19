@@ -1,18 +1,14 @@
 import React from 'react'
 import { SafeAreaView, ScrollView, StatusBar, Text, View } from 'react-native';
+import Home from './screens/Home';
 
 const App = () => {
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={'light-content'} />
       <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
+        contentContainerStyle={{flex: 1}}
       >
-        <View>
-          <Text>Lanchonete e Pastelaria da Maria Helena</Text>
-        </View>
+          <Home/>
       </ScrollView>
-    </SafeAreaView>
   )
 }
 
