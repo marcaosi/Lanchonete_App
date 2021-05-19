@@ -3,13 +3,12 @@ import {StyleSheet} from 'react-native'
 const styles = StyleSheet.create({
     Container: {
         flex: 1,
-        justifyContent: 'center',
+        justifyContent: 'space-evenly',
         alignItems: 'center'
     },
     Background: {
         flex: 1,
-        resizeMode: "cover",
-        justifyContent: "center"
+        resizeMode: "cover"
     },
     ContainerButton: {
         width: 300,
